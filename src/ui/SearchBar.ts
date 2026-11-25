@@ -1,0 +1,3 @@
+export function searchBar(): string {
+  return `<form class="prompt-form" id="prompt-form"><div class="prompt-icon">✧</div><input id="character-prompt" maxlength="160" placeholder="Immagina un personaggio… es. una gattina astronauta rosa" /><button class="primary-button compact" type="submit">Crea ✨</button></form><div class="suggestions"><span>ISPIRAZIONE</span><button data-prompt="una strega del bosco con capelli viola">Strega del bosco</button><button data-prompt="un gatto astronauta blu">Gatto spaziale</button><button data-prompt="un piccolo robot verde buffo">Robot buffo</button><button data-action="surprise">Sorprendimi</button></div>`;
+}

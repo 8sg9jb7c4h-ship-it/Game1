@@ -1,0 +1,22 @@
+{
+  "name": "tomodachi-studio-online",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A cozy 3D character creator and social diorama.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "peerjs": "^1.5.4",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.1"
+  }
+}
